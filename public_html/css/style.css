@@ -88,9 +88,9 @@ html {
 }
 
 .logo_rey{
-    width: 10%;
+    width: 150px;
     position: fixed;
-    top: 5px;
+    top: 0px;
 }
 
 .tel{
@@ -487,7 +487,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("./img/index/Pijas.jpg") 0;
+    background: url("../img/index/Pijas.jpg") 0;
     background-size: cover;
 }
 .rec_f7:hover{
@@ -542,7 +542,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("/img/index/Herramientas.jpg") 0;
+    background: url("../img/index/Herramientas.jpg") 0;
     background-size: cover;
 }
 
