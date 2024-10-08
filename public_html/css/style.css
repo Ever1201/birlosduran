@@ -431,7 +431,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("https://storage.cloud.google.com/bttduran/BirlosTuercasYTornillos/public_html/img/index/tornillo.jpg");
+    background: url("../img/index/tornillo.jpg");
     background-size: cover;
     
 }
@@ -443,7 +443,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("https://storage.cloud.google.com/bttduran/BirlosTuercasYTornillos/public_html/img/index/Estr.jpg") 0;
+    background: url("../img/index/Estr.jpg") 0;
     background-size: cover;
 }
 .rec_f3:hover{
@@ -454,7 +454,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("https://storage.cloud.google.com/bttduran/BirlosTuercasYTornillos/public_html/img/index/noxidable.jpg") 0;
+    background: url("../img/index/noxidable.jpg") 0;
     background-size: cover;
 }
 .rec_f4:hover{
@@ -465,7 +465,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("https://storage.cloud.google.com/bttduran/BirlosTuercasYTornillos/public_html/img/index/Perno.jpg") 0;
+    background: url("../img/index/Perno.jpg") 0;
     background-size: cover;
 }
 .rec_f5:hover{
@@ -476,7 +476,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("https://storage.cloud.google.com/bttduran/BirlosTuercasYTornillos/public_html/img/index/Varilla.jpg") 0;
+    background: url("../img/index/Varilla.jpg") 0;
     background-size: cover;
 }
 .rec_f6:hover{
@@ -487,7 +487,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("https://storage.cloud.google.com/bttduran/BirlosTuercasYTornillos/public_html/img/index/Pijas.jpg") 0;
+    background: url("./img/index/Pijas.jpg") 0;
     background-size: cover;
 }
 .rec_f7:hover{
@@ -498,7 +498,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("https://storage.cloud.google.com/bttduran/BirlosTuercasYTornillos/public_html/img/index/Chaveta.jpg") 0;
+    background: url("../img/index/Chaveta.jpg") 0;
     background-size: cover;
 }
 .rec_f8:hover{
@@ -509,7 +509,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("https://storage.cloud.google.com/bttduran/BirlosTuercasYTornillos/public_html/img/index/Remache.jpg") 0;
+    background: url("../img/index/Remache.jpg") 0;
     background-size: cover;
 }
 .rec_f9:hover{
@@ -520,7 +520,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("https://storage.cloud.google.com/bttduran/BirlosTuercasYTornillos/public_html/img/index/Tuercas.jpg") 0;
+    background: url("../img/index/Tuercas.jpg") 0;
     background-size: cover;
 }
 .rec_f10:hover{
@@ -531,7 +531,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("https://storage.cloud.google.com/bttduran/BirlosTuercasYTornillos/public_html/img/index/Estr.jpg") 0;
+    background: url("../img/index/Estr.jpg") 0;
     background-size: cover;
 }
 .rec_f11:hover{
@@ -542,7 +542,7 @@ padding-left: 2rem;
     color: white;
     font-size: 19pt;
     animation-duration: 10s;
-    background: url("https://storage.cloud.google.com/bttduran/BirlosTuercasYTornillos/public_html/img/index/Herramientas.jpg") 0;
+    background: url("/img/index/Herramientas.jpg") 0;
     background-size: cover;
 }
 
