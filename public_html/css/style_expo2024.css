@@ -1,0 +1,910 @@
+html,body{
+    overflow-x: hidden;
+}
+
+/*BOTON INDEX BANNER */
+.btn_baner_expo24{
+    position: absolute;
+    top: 71%;
+    left: 43%;
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 18pt;
+    font-weight: 700;
+    color: #003d75 !important;
+    width: 20%;
+    text-align: center;
+}
+
+.btn_baner_expo24:hover{
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  color: white !important;
+  cursor: pointer;
+}
+
+.head_bg{
+    width: 100%;
+    height: 615px;
+    flex-shrink: 0;
+    opacity: var(--sds-size-stroke-border);
+    background-image: url('../img/lexpo_2024/images/181e778aca4047b1848a6c1459706585.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #003d75;
+    background-blend-mode: soft-light;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.txt_fecha{
+    flex-shrink: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.fecha_k{
+    margin: 0 auto;
+    height: 2rem;
+    background-color: #fff;
+    width: 21.79013rem;
+    border-radius: 0.8125rem;
+    padding-top: 0.2rem;
+    -webkit-box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.44);
+    box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.44);
+}
+
+.intro1{
+    padding-top: 1rem;
+}
+
+.txt_i1{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 3px 3px 3px black;
+}
+
+.intro2{
+    margin-top: -3%;
+    padding-top: 2rem;
+}
+
+
+
+.txt_i2{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 7.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 3px 3px 3px black;
+}
+.txt_i3{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 5.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 3px 3px 3px black;
+}
+
+.miniblack{
+    font-size: 2rem;
+}
+
+.bar_yellow{
+    width: 100%;
+    height: 3.8125rem;
+    position: absolute;
+    margin-left: -6rem;
+    flex-shrink: 0;
+    opacity: var(--sds-size-stroke-border);
+    background: #F2E72E;
+
+    text-align: center;
+}
+
+.text_count{
+    display: inline-flex;
+}
+
+.day_d{
+    width: 6rem;
+    text-align: center;
+}
+
+.text_c_m{
+    text-align: center;
+}
+
+.cont_c_m{
+    font-weight: 800;
+    font-size: 22pt;
+    height: 2.5rem;
+}
+
+.text_c_m{
+    font-size: 9pt;
+}
+
+.button_zone{
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.register_e{
+    color: black;
+}
+
+.register_e:hover{
+    color: black;
+}
+
+.btn_register{
+    padding: 0.3rem;
+    width: 21rem;
+    border-radius: 18px;
+    font-weight: 700;
+    background-color: white;
+    display: inline flow-root;
+    -webkit-box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.44);
+    box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.44);
+    cursor: pointer;
+}
+
+.btn_register:hover{
+    background-color: #F2E72E;
+}
+
+.logo_bar{
+    width: 100%;
+    height: 10.875rem;
+    flex-shrink: 0;
+    background-color: #F2F2F2;
+}
+
+.marcas{
+    padding-top: 3.2rem;
+}
+
+.logo_rey_expo24{
+    width: 4.9375rem;
+    height: 3.75rem;
+    flex-shrink: 0;
+    position: inherit;
+}
+
+.logo_ert_expo24{
+    width: 4.4375rem;
+    height: 3.75rem;
+    flex-shrink: 0;
+    position: inherit;
+}
+
+.logo_fast_expo24{
+    width: 9.8125rem;
+    height: 2.9375rem;
+    flex-shrink: 0;
+    position: inherit;
+}
+
+.logo_maxi_expo24{
+    width: 7.5rem;
+    height: 4.8125rem;
+    flex-shrink: 0;
+    position: inherit;
+}
+
+.logo_expo{
+    text-align: center;
+    padding-top: 0rem;
+    padding-left: 8rem !important;
+}
+
+.logo_expo_24{
+    width: 9.938rem;
+    height: 10.75rem;
+}
+
+.link_wb_ert, .link_wb_mxt{
+    cursor: auto;
+}
+
+.link_wb_ert, .link_wb_fast, .link_wb_mxt{
+    margin-left: 5%;
+}
+
+.foto_bann{
+    width: 100%;
+    height: 19.375rem;
+    flex-shrink: 0;
+}
+
+.foto_bann{
+    background-image: url('../img/lexpo_2024/EER2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info_text_24{
+    width: 100%;
+    height: 44.0625rem;
+    flex-shrink: 0;
+    background-color: #f2f2f2;
+}
+
+.margb_24{
+    padding-top: 7rem;
+}
+
+.img_fondo_24{
+    width: 34.0625rem;
+    height: 34.0625rem;
+    flex-shrink: 0;
+    background-image: url('../img/lexpo_2024/img_ppal.JPEG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 70px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.margb_24{
+    padding-right: 6rem;
+    padding-left: 6rem;
+    width: 100%;
+}
+
+.title_24_txr{
+    text-align: center;
+    font-size: 36pt;
+    font-weight: 700;
+    color: #003d75;
+}
+
+.texto_24_1{
+    padding-top: 3rem;
+}
+
+.txt_24_1{
+    font-size: 14pt;
+}
+
+.negrit_24{
+    font-weight: 800;
+    color: #003d75;
+}
+
+.button_contain_24{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.btn_24_ert{
+    text-decoration: none;
+    color: white;
+    background-color: #003d75;
+    padding: 1rem;
+    border-radius: 26px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn_24_ert:hover{
+    background-color: #F2E72E;
+    color: black;   
+}
+
+
+.Birtumax24_info{
+    width: 100%;
+    height: 48.063rem;
+    background-image: url('../img/lexpo_2024/red.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Birtumax24_info{
+    padding: 5rem;
+    text-align: center;
+}
+
+.logo_bmx24{
+    width: 27.3125rem;
+    height: 5.5625rem;
+}
+
+.text_info_bmx{
+    padding-top: 2rem;
+}
+
+.txt_bmx24{
+    color: white;
+    font-weight: 700;
+}
+
+/*CAROUSEL */
+section{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prev, .next{
+    font-size: 2em !important;
+    cursor: pointer !important;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main div{
+    width: 10%;
+    height: 23rem;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.slide{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.slide li{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 0.8em;
+}
+.fived{
+    margin-right: 0;
+}
+
+.a{
+    width: 50%;
+}
+.b{
+    background-color: white;
+}
+.c{
+    pointer-events: none;
+}
+
+.one{
+    background-color: #5C1313;
+    background-image: url('../img/lexpo_2024/tuerca.png');
+    background-size: cover;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #AE3C3C;
+}
+.two{
+    background-color: #F56464;
+    background-image: url('../img/lexpo_2024/birlo.webp');
+    background-size: cover;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #AE3C3C;
+}
+.three{
+    background-color: #8F0101;
+    background-image: url('../img/lexpo_2024/birlo2.webp');
+    background-size: cover;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #AE3C3C;
+}
+.four{
+    background-color: #FF9C9C;
+    background-image: url('../img/lexpo_2024/tuerca111.png');
+    background-size: cover;
+    background-position: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #AE3C3C;
+}
+.five{
+    background-color: #FFCFCF;
+    background-image: url('../img/lexpo_2024/grapa.JPG');
+    background-size: cover;
+    background-position: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #AE3C3C;
+}
+
+.next, .prev{
+    color: white;
+}
+
+.link_cat_bmx24{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #fcbf00;
+    padding: 0.5rem;
+    border-radius: 14px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.51);
+    box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.51);
+    transition: 3s;
+}
+
+.link_cat_bmx24:hover{
+    color: black;
+    -webkit-box-shadow: inset 3px 4px 13px -4px rgba(0,0,0,0.59);
+    -moz-box-shadow: inset 3px 4px 13px -4px rgba(0,0,0,0.59);
+    box-shadow: inset 3px 4px 13px -4px rgba(0,0,0,0.59);
+    transition: 3s;
+}
+
+.map_info{
+    width: 50%;
+    height: 40.0625rem;
+    flex-shrink: 0;
+
+    background-color: #003d75;
+    background-image: url('../img/lexpo_2024/IMG_9441.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+.map_ert24{
+    width: 50%;
+    height: 40.0625rem;
+    flex-shrink: 0;
+
+    background-color: #f2f2f2;
+}
+
+.container_maps{
+    display: flex;
+}
+
+.title_map24{
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.text_titlemap24{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+.space_pix{
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.txt24i{
+    color: white;
+    font-size: 15pt;
+    font-weight: 800;
+    text-shadow: 3px 3px 3px black;
+}
+
+.point_select_icon{
+    color: white;
+}
+
+.icon_info24{
+    text-align: center;
+}
+
+.space_pix2{
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+
+.space_pix3{
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.txt242{
+    padding-top: 1rem;
+}
+
+.tellink{
+    color: white !important;
+    font-weight: 800 !important;
+    font-size: 15pt !important;
+    text-decoration: none !important;
+    text-shadow: 3px 3px 3px black;
+}
+
+.tellink:hover{
+    color:#fcbf00 !important;
+}
+
+.footer_expo24{
+    width: 100%;
+    height: 16.5rem;
+    background-color: #f2f2f2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
+}
+
+.logos_foot24{
+    padding: 2rem !important;
+    padding-left: 4rem !important;
+}
+
+.logo_insta24{
+    color: black;
+    font-size: 27pt;
+}
+
+.logo_tutu24{
+    margin-left: 1rem;
+    color: black;
+    font-size: 27pt;
+}
+
+.logo_in24{
+    margin-left: 1rem;
+    font-size: 27pt;
+    color: black;
+}
+
+.espaceer24footer{
+    padding: 2rem;
+}
+
+.link_24foot, .nostyle_foot{
+    color: #003d75;
+    text-decoration: none;
+}
+
+.nostyle_foot{
+    cursor: default;
+}
+
+.nostyle_foot:hover{
+    color: #003d75;
+}
+
+.link_24foot:hover{
+    font-weight: 800;
+}
+
+.logo_tutu24:hover, .logo_in24:hover, .logo_insta24:hover{
+    color: #003d75;
+}
+
+
+
+/*Pantalla IPAD*/
+@media(min-width:1170px) and (max-width:1200px){
+
+    .logo_rey_expo24{
+        width: 3.938rem;
+    }
+
+    .logo_ert_expo24{
+        width: 3.438rem;
+    }
+
+    .logo_fast_expo24{
+        width: 7.813rem;
+    }
+
+    .logo_maxi_expo24{
+        height: 3.813rem;
+    }
+
+    .margb_24{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .img_fondo_24{
+        width: 32.063rem;
+    }
+
+    .txt_bmx24{
+        padding-left: 9rem;
+        padding-right: 9rem;
+    }
+}
+
+@media(min-width:815px) and (max-width:825px){
+    .txt_i1{
+        font-size: 3rem;
+    }
+
+    .txt_i3{
+        font-size: 4.25rem;
+    }
+
+    .txt_i2{
+        font-size: 5.25rem;
+    }
+
+    .logo_rey_expo24{
+        width: 2.938rem;
+    }
+
+    .logo_ert_expo24{
+        width: 2.438rem;
+    }
+
+    .logo_fast_expo24{
+        width: 5.813rem;
+    }
+
+    .logo_maxi_expo24{
+        width: 4.5rem;
+    }
+
+    .foto_bann{
+        background-size: inherit;
+        background-position-x: center;
+    }
+
+    .img_fondo_24{
+        width: 17.063rem;
+        background-position-x: center;
+    }
+
+    .title_24_txr{
+        font-size: 25pt;
+    }
+
+    .Birtumax24_info{
+        padding: 2rem;
+    }
+
+    .map_info{
+        background-position-x: center;
+    }
+
+    .txt24i{
+        font-size: 12pt;
+    }
+
+    .space_pix2{
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+
+    .space_pix3{
+        padding-top: 3rem;
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+
+    .tellink{
+        font-size: 13pt;
+    }
+
+    .logo_insta24{
+        font-size: 16pt;
+    }
+
+    .logo_tutu24{
+        font-size: 14pt;
+    }
+
+    .logo_in24{
+        font-size: 16pt;
+    }
+    
+    .btn_24_ert{
+        padding: 2%;
+        font-size: 10pt;
+    }
+}
+
+@media(min-width:375px) and (max-width:412px){
+    .head_bg{
+        height: 490px;
+        padding-top: 1.3rem;
+        padding-left: 2rem;
+        padding-right: 2.2rem;
+    }
+
+    .fecha_k{
+        width: 13.79rem;
+    }
+
+    .txt_i1{
+        font-size: 2rem;
+    }
+
+    .txt_i2{
+        font-size: 4.25rem;
+    }
+
+    .txt_i3{
+        font-size: 2.25rem;
+    }
+
+    .intro2{
+        margin-top: -6%;
+        padding-top: 0rem;
+    }
+
+    .bar_yellow{
+        width: 123%;
+        position: inherit;
+        margin-left: -2rem;
+    }
+
+    .button_zone{
+        margin-top: 3rem;
+    }
+
+    .btn_register{
+        width: 18rem;
+    }
+
+    .marcas{
+        width: 100% !important;
+        padding-top: 1rem;
+    }
+
+    .logo_bar{
+        height: 11.87rem;
+    }
+
+    .logo_rey_expo24{
+        width: 2.938rem;
+    }
+
+    .logo_ert_expo24{
+        width: 2.438rem;
+    }
+
+    .logo_fast_expo24{
+        width: 5.813rem;
+    }
+
+    .logo_maxi_expo24{
+        width: 5.5rem;
+    }
+
+    .logo_expo{
+        width: 100% !important;
+        padding-left: 0.5rem !important;
+    }
+
+    .logo_expo_24{
+        width: 7.938rem;
+        height: 4.75rem;
+    }
+
+    .foto_bann{
+        background-position-x: center;
+    }
+
+    .margb_24{
+        padding-top: 2rem;
+    }
+
+    .margb_24{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .re_img24_6{
+        display: none;
+    }
+
+    .re_txt24_6{
+        width: 100% !important;
+    }
+    
+    .title_24_txr{
+        font-size: 27pt;
+    }
+
+    .btn_24_ert{
+        font-size: 9pt;
+    }
+
+    .Birtumax24_info{
+        padding: 2rem;
+        height: 52.063rem;
+    }
+
+    .logo_bmx24{
+        width: 18.313rem;
+    }
+
+    .sect_bmx_img24{
+        margin-left: -3.6rem;
+        width: 137%;
+    }
+
+    .container_maps{
+        display: inherit;
+    }
+
+    .map_info{
+        width: 100%;
+        height: 30.063rem;
+    }
+
+    .txt_24_info{
+        width: 62% !important;
+    }
+
+    .txt24i{
+        font-size: 11pt;
+    }
+
+    .space_pix2{
+        padding-top: 0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .icon_info24{
+        width: 25% !important;
+    }
+
+    .txt_24_info{
+        width: 62% !important;
+    }
+
+    .space_pix3{
+        padding-top: 3rem;
+        padding-left: 2.5rem;
+        padding-right: 2rem;
+    }
+
+    .map_ert24{
+        width: 100% !important;
+    }
+
+    .logos_foot24{
+        padding-left: 2rem !important;
+    }
+
+    .logo_tutu24{
+        margin-left: 0rem;
+    }
+
+    .logo_in24{
+        margin-left: 0rem;
+    }
+
+    .titlefott24{
+        font-size: 82.5%;
+    }
+    .titlefott224{
+        font-size: 84%;
+    }
+
+}

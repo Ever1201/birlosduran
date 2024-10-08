@@ -1,0 +1,753 @@
+.head_maxi{
+    width: 100%;
+    height: 615px;
+    background-color: #ff1212;
+    background-image: url("../img/expo_mty/banner1_mty.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.uno_maxi{
+    width: 100%;
+    height: 615px;
+    background-color: #F0F0F0;
+}
+
+.space{
+    height: 29%;
+    margin-top: 4%;
+}
+
+.camion_birtu{
+    position: absolute;
+    top: 23%;
+    width: 40%;
+    left: 53%;
+}
+
+.img_birtu_tit{
+    position: absolute;
+    top: 44%;
+    width: 20%;
+    left: 75%;
+}
+
+.title_g_1{
+    color: white;
+    font-size: 6vw;
+    font-family: Inter;
+    font-weight: 800;
+    padding-left: 6%;
+}
+
+.title_g_2{
+    color: white;
+    font-family: Inter;
+    font-size: 3.2vw;
+    font-weight: 300;
+    padding-left: 7%;
+}
+
+.title_g_3{
+    color: white;
+    font-size: 6vw;
+    font-family: Inter;
+    font-weight: 800;
+    padding-left: 6%;
+}
+
+.title_g_4{
+    color: white;
+    font-size: 2vw;
+    padding-left: 7%;
+}
+
+.color_b{
+    color: #F5DB06;
+}
+
+.boton_r{
+    background-color: #F5DB06;
+    width: 19%;
+    text-align: center;
+    padding: 2%;
+    font-weight: 700;
+    margin-left: 23%;
+    margin-top: 4%;
+    border-color: #F5DB06;
+    border-style: solid;
+    border-width: 2px;
+    transition: 0.4s;
+}
+
+.boton_r:hover{
+    background-color: transparent;
+    border-color: #F5DB06;
+    border-style: solid;
+    border-width: 2px;
+    color: #F5DB06;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.text_cont_maxi{
+    margin-top: 14.1% !important;
+    margin-left: -19% !important;
+    background-color: black;
+    width: 76%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 1.2%;
+
+}
+
+.cont_c_m{
+    font-size: 16pt;
+}
+
+.logo_ex_m{
+    width: 103%;
+    margin-top: 8%;
+}
+
+.expo_logos_m{
+    padding-top: 7%;
+    padding-left: 6%;
+    margin-left: 5% !important;
+}
+
+.logo_rey_m{
+    width: 64%;
+}
+
+.logo_bir_m{
+    width: 109%;
+}
+
+.logo_max_m{
+    width: 98%;
+}
+
+/* colo 1 */
+.bg_color_m1{
+    background-color: yellow;
+    width: 116.4%;
+    height: 615px;
+    margin-left: -29%;
+
+    background: url("../img/expo_mty/1 copia.webp"), #F5DB06;
+    background-blend-mode: overlay, normal;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg_content1 {
+    padding-top: 6%;
+}
+
+.title_contain1{
+    padding-left: 8%;
+}
+
+.tit_a_1{
+    text-align: center;
+}
+
+.tit_a_1{
+    color: #003D75;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.8vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.txt_a_2{
+    color: #003D75;
+    font-family: Inter;
+    font-size: 13pt;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.content_text_a_2{
+    padding-top: 8%;
+    text-align: center
+}
+
+.video_cont_1{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.tutub_cont{
+    width: 336px;
+}
+
+.boton_r2{
+    background-color: #F5DB06;
+    color: #003D75;
+    font-weight: 700;
+}
+
+.boton_r2:hover{
+    background-color: transparent;
+    border-color: #F5DB06;
+    border-style: solid;
+    border-width: 2px;
+    color: #000;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.buton_content{
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.boton_r2{
+    text-align: center;
+    width: 27%;
+    height: 43px;
+    padding: 1.2%;
+    margin-left: 36%;
+}
+
+.tutub_cont{
+    border-color: #003d75;
+    border-style: solid;
+    border-width: 5px;
+}
+
+/* colo 2 */
+
+.dos_maxi{
+    width: 100%;
+    height: 615px;
+    background-color: #F0F0F0;
+}
+
+.bg_color_m2{
+    width: 116.4%;
+    height: 615px;
+    margin-left: -29%;
+    background: url("../img/expo_mty/2 copia.webp"), #FF4040;
+    background-blend-mode: overlay, normal;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+    text-align: center;
+}
+
+.logo_cont_red{
+    padding-top: 7%;
+    text-align: center;
+}
+
+.logo_bir_red{
+    width: 82%;
+}
+
+.birlo_r{
+    width: 18%;
+    position: absolute;
+    top: 158%;
+    left: -1%;
+}
+
+.swal2-html-container{
+    color: white !important;
+}
+
+.bg_gra1{
+    scroll-snap-type: y mandatory;
+}
+
+.scrol1{
+    scroll-snap-align: start;
+}
+
+.scrol2{
+    scroll-snap-align: start;
+}
+
+.scrol3{
+    scroll-snap-align: start;
+}
+
+.scrol4{
+    scroll-snap-align: start;
+}
+
+.bg_content2{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.tit_a_2{
+    font-size: 1.8vw;
+    margin-left: 1%;
+    font-weight: 800;
+}
+
+.flip_book_maxi{
+    padding-top: 5%;
+    padding-left: 16%;
+    margin-left: 14.5%;
+}
+
+.content_text_a_3{
+    padding-top: 8%;
+}
+
+.txt_a_3{
+    font-size: 13pt;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* color */
+
+.tres_maxi{
+    width: 100%;
+    height: 615px;
+    background-color: #F0F0F0;
+}
+
+.bg_color_m3{
+    width: 116.4%;
+    height: 615px;
+    margin-left: -29%;
+    background: #000;
+    background-blend-mode: overlay, normal;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+    text-align: center;
+}
+
+.logo_bir_black{
+    width: 58%;
+}
+
+.title_sub_expo{
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.tit_sub_expo{
+    font-size: 2.8vw;
+    color: white;
+    font-weight: 700;
+}
+
+.expo_boton{
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.buton_expo{
+    background-color: #D9D9D9;
+    padding: 2.5%;
+    width: 48%;
+    border-radius: 50px;
+    margin-left: 27%;
+    border: #D9D9D9 solid;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.buton_expo:hover{
+    color: #D9D9D9;
+    border: #D9D9D9 solid;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.link_b_mty{
+    color: #000;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+.desact{
+    display: none;
+}
+
+.logo_cont_black{
+    padding-top: 22%;
+}
+
+.caja_nom{
+    padding-top: 6%;
+}
+
+.caja_nom, .caja_empresa{
+    padding-bottom: 6%;
+}
+
+.title_contain2{
+    scroll-padding-bottom: 6%;
+}
+
+.nom_cli_camp, .emp_cli_camp{
+    background-color: #FFBCBC;
+    border-color: #FFBCBC;
+    appearance: none;
+    border: none;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    outline: none;
+    border-bottom: .2em solid #E91E63;
+    padding: .4em;
+    width: 79%;
+}
+
+.caja_cli{
+    padding-bottom: 6%;
+    scroll-padding-top: 5%;
+}
+
+.etiqueta_cli{
+    font-weight: 600;
+    padding-right: 4%;
+}
+
+.si_cli{
+    font-weight: 600;
+    padding-right: 1.4%;
+}
+
+.no_cli{
+    font-weight: 600;
+    padding-right: 1.4%;
+    padding-left: 5%;
+}
+
+.caja_agenda{
+    padding-bottom: 6%;
+}
+
+.fe_cli{
+    font-weight: 600;
+    padding-right: 1.4%;
+}
+
+.fecha_cli{
+    color: white;
+    font-weight: 600;
+    background-color: #E91E63;
+    padding: 1%;
+}
+
+.ho_cli{
+    padding-left: 5%;
+    font-weight: 600;
+    padding-right: 1.4%;
+}
+
+.hora_cli{
+    color: white;
+    font-weight: 600;
+    background-color: #E91E63;
+    padding: 1%;
+}
+
+.bu_rec_mty{
+    padding-top: 8%;
+}
+
+.buton_reserva{
+    background-color: #E91E63;
+    color: white;
+    font-weight: 700;
+    width: 22%;
+    padding: 2%;
+    border-radius: 9px;
+    border: #E91E63 solid;
+    margin-left: 39.5%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.buton_reserva:hover{
+    color: #E91E63;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+@media (min-width:1910px) and (max-width:1950px){
+    .head_maxi{
+        height: 927px;
+    }
+
+    .title_g_1, .title_g_2, .title_g_3, .title_g_4{
+        padding-left: 0;
+    }
+
+    .boton_r{
+        width: 33%;
+        margin-left: 0%;
+        font-size: 1.5vw;
+    }
+
+    .text_cont_maxi{
+        margin-top: 19.6% !important;
+        margin-left: -41% !important;
+        width: 113%;
+        padding: 6.2%;
+        font-size: 1.6vw;
+    }
+
+    .expo_logos_m{
+        padding-top: 26%;
+        padding-left: 27%;
+    }
+
+    .uno_maxi{
+        height: 927%;
+    }
+
+    .bg_color_m1{
+        width: 173%;
+        height: 992px;
+        margin-left: -63%;
+    }
+
+    .bg_content1{
+        margin-left: 19% !important;
+    }
+
+    .dos_maxi{
+        height: 992px;
+    }
+
+    .bg_color_m2{
+        width: 173%;
+        height: 992px;
+        margin-left: -63%;
+    }
+
+    .birlo_r{
+        width: 23%;
+    }
+
+    .birtu_cata_c{
+        width: 108% !important;
+        height: 474px !important;
+        margin-left: -3.5% !important;
+    }
+
+    .tres_maxi{
+        height: 992px;
+    }
+
+    .bg_content2{
+        margin-left: 20% !important;
+        padding-top: 14% !important;
+    }
+
+    .bg_color_m3{
+        width: 173%;
+        height: 992px;
+        margin-left: -63%;
+    }
+
+    .tutub_cont{
+        width: 730px !important;
+    }
+
+}
+
+@media (min-width:375px) and (max-width:410px){
+
+    .head_maxi{
+        height: 664px !important;
+        background-image: url("../img/expo_mty/banner3_mty.webp.png") !important;
+    }
+
+    .space{
+        height: 20%;
+        margin-top: 26%;
+    }
+
+    .title_g_1{
+        font-size: 11vw;
+        padding-top: 22%;
+    }
+
+    .title_g_2{
+        font-size: 5.2vw;
+    }
+
+    .title_g_3{
+        font-size: 14vw;
+    }
+
+    .text_ti{
+        margin-top: 4% !important;
+    }
+
+    .title_g_4{
+        font-size: 7vw;
+    }
+
+    .boton_r{
+        width: 74%;
+        margin-top: 24%;
+        padding: 6%;
+        margin-left: 5%;
+        font-size: 5.5vw;
+    }
+
+    .text_cont_maxi{
+        margin-top: 29.1% !important;
+        width: 242%;
+        padding: 10.2%;
+    }
+
+    .expo_mphead{
+        margin-top: 20% !important;
+    }
+
+    .expo_mphead{
+        margin-top: 14% !important;
+        margin-left: 15%;
+    }
+
+    .logo_ex_m{
+        width: 362%;
+        margin-top: 44%;
+        margin-left: -465%;
+    }
+
+    .expo_logos_m{
+        margin-left: -109% !important;
+        margin-top: -4% !important;
+        padding-right: 36%;
+    }
+
+    .uno_maxi{
+        height: 664px;
+    }
+
+    .bg_color_m1{
+        height: 664px;
+    }
+
+    .bg_content1{
+        margin-left: -8% !important;
+    }
+
+    .boton_r2{
+        width: 79%;
+        margin-left: 11%;
+        padding: 4.2%;
+    }
+
+    .tutub_cont{
+        width: 317px;
+        margin-left: -54%;
+    }
+
+    .tit_a_1{
+        font-size: 3.8vw;
+    }
+
+    .txt_a_2{
+        font-size: 10pt;
+    }
+
+    .dos_maxi{
+        height: 664px;
+
+    }
+
+    .bg_color_m2{
+        height: 664px;
+    }
+
+    .logo_bir_red{
+        margin-left: 15%;
+    }
+
+    .tit_a_2{
+        font-size: 5.8vw;
+    }
+
+    .birtu_cata_c{
+        width: 169% !important;
+        margin-left: -42.5% !important
+    }
+
+    .txt_a_3{
+        font-size: 10pt;
+    }
+
+    .birlo_r{
+        width: 44%;
+        top: 171%;
+    }
+
+    .tres_maxi{
+        height: 664px;
+    }
+    
+    .bg_color_m3{
+        height: 664px;
+        padding-top: 40%;
+    }
+    .bg_content2{
+        margin-left: -5% !important;
+    }
+
+    .nom_cli_camp, .emp_cli_camp{
+        width: 131%;
+        margin-left: -16% !important;
+    }
+
+    .etiqueta_cli{
+        margin-bottom: 14%;
+        margin-top: 13%;
+    }
+
+    .ho_cli{
+        margin-top: 15%;
+    }
+
+    .buton_reserva{
+        width: 61%;
+        margin-left: 19.5%;
+        margin-top: 14%;
+    }
+
+    .tit_sub_expo{
+        font-size: 2vw;
+        margin-left: 17%;
+    }
+
+    .buton_expo{
+        width: 74%;
+        margin-left: 23%;
+        font-size: 2vw;
+        margin-top: 52%;
+    }
+
+    .logo_bir_black{
+        width: 68%;
+        margin-left: 18%;
+        margin-top: 318%;
+    }
+
+    .camion_birtu {
+        display: none;
+    }
+
+    .img_birtu_tit {
+        display: none;
+    }
+}

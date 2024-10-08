@@ -1,0 +1,283 @@
+
+.logo_con{
+    text-align: center;
+}
+
+.logo_img_con{
+    width: 65% !important;
+    padding-top: 0 !important;
+}
+
+.title_contador{
+    text-align: center;
+    padding-top: 7%;
+}
+
+.txt_cont{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: white;
+    font-size: 3vw;
+}
+
+.cont-char{
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.contador_visual{
+    text-align: center;
+}
+
+.contador_num{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    color: yellow;
+    font-size: 7vw;
+}
+
+.list_i{
+    text-align: center;
+}
+
+.li_element{
+    display: inline;
+    padding-right: 4%;
+}
+
+.l_ert{
+    width: 7%;
+}
+
+.l_fast{
+    width: 12%;
+}
+
+.l_maxi{
+    width: 10%;
+}
+
+.l_rey{
+    width: 9%;
+}
+
+.float{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background: rgba(000, 000, 000, .4);
+    padding-top: 7%;
+}
+
+.star1{
+    position: fixed;
+    top: -5%;
+    left: -8%;
+
+}
+
+.star2{
+    position: fixed;
+    top: 48%;
+    left: 74%;
+}
+
+.txt_con_h{
+    margin-bottom: -1rem;
+}
+
+.txt_title_day{
+    margin-bottom: 3%;
+}
+
+.title_day{
+    font-weight: 800;
+    color: yellow;
+}
+
+.cont_text_hor{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.text_1_conv{
+    text-align: justify;
+    padding-left: 34%;
+}
+
+.colored_text_c{
+    color: yellow;
+}
+
+#video_tecno{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.1;
+    z-index: -2;
+}
+
+@media(min-width:1900px) and (max-width:1930px){
+    .star1{
+        position: fixed;
+        top: -5%;
+        left: 0%;
+    }
+}
+
+@media(min-width:315px) and (max-width:398px){
+
+    .star1{
+        top: 2%;
+        width: 63%;
+        left: -18%;
+    }
+
+    .star2{
+        top: 69%;
+        left: 57%;
+        width: 63%;
+    }
+
+    .float{
+        height: 100%;
+        padding-top: 45%;
+        top: 0;
+    }
+
+    .l_fast{
+        width: 24%;
+    }
+
+    .l_ert{
+        width: 15%;
+    }
+
+    .l_maxi{
+        width: 21%;
+    }
+
+    .l_rey{
+        width: 20%;
+    }
+
+    .contador_num{
+        font-size: 16vw;
+    }
+
+    .txt_cont{
+        font-size: 9vw;
+    }
+    .text_1_conv{
+        padding-left: 6%;
+        font-size: 12px;
+    }
+}
+
+@media(min-width:444px) and (max-width:606px){
+    .text_1_conv{
+        padding-left: 6%;
+        font-size: 12px;
+    }
+    .star1{
+        top: -1%;
+        width: 63%;
+        left: -18%;
+    }
+
+    .star2{
+        top: 74%;
+        left: 57%;
+        width: 63%;
+    }
+
+    .float{
+        height: 71%;
+        padding-top: 4%;
+        top: 23%;
+    }
+
+    .l_fast{
+        width: 24%;
+    }
+
+    .l_ert{
+        width: 15%;
+    }
+
+    .l_maxi{
+        width: 21%;
+    }
+
+    .l_rey{
+        width: 20%;
+    }
+
+    .contador_num{
+        font-size: 16vw;
+    }
+
+    .txt_cont{
+        font-size: 9vw;
+    }
+}
+
+@media(min-width:628px) and (max-width:858px){
+    .text_1_conv{
+        padding-left: 6%;
+        font-size: 12px;
+    }
+    .star1{
+        top: -10%;
+        width: 63%;
+        left: -18%;
+    }
+
+    .star2{
+        top: 67%;
+        left: 57%;
+        width: 63%;
+    }
+
+    .float{
+        height: 71%;
+        padding-top: 4%;
+        top: 23%;
+    }
+
+    .l_fast{
+        width: 24%;
+    }
+
+    .l_ert{
+        width: 15%;
+    }
+
+    .l_maxi{
+        width: 21%;
+    }
+
+    .l_rey{
+        width: 20%;
+    }
+
+    .contador_num{
+        font-size: 11vw;
+    }
+
+    .contador_visual{
+        padding-top: 10%;
+        padding-bottom: 6%;
+    }
+
+    .txt_cont{
+        font-size: 5vw;
+    }
+}
