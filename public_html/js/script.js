@@ -1,27 +1,23 @@
-function toggleMenu() {
-    const sidebar = document.getElementById("sidebar");
-    const body = document.body;
-    
-    if (sidebar.style.left === "0px") {
-        sidebar.style.left = "-250px"; // Oculta el menú
-        body.classList.remove("sidebar-active"); // Elimina la clase que desplaza el contenido
-    } else {
-        sidebar.style.left = "0px"; // Muestra el menú
-        body.classList.add("sidebar-active"); // Agrega la clase que desplaza el contenido
-    }
-}
+document.getElementById('uploadForm').addEventListener('submit', function(e) {
+  e.preventDefault();
 
-function doGet() {
-    return HtmlService.createHtmlOutputFromFile('form');
-  }
+  const file = document.getElementById('fileInput').files[0];
   
-  function uploadFile(form) {
-    try {
-      var folder = DriveApp.getFolderById('1ImvXKWVpvMWjAN5GSX_QF0dAjrb3Lw2j');
-      var blob = form.myFile; // "myFile" es el nombre del input de archivo en el HTML.
-      var file = folder.createFile(blob);
-      return "Archivo subido correctamente: " + file.getName();
-    } catch (error) {
-      return "Error al subir archivo: " + error.message;
-    }
+  if (file) {
+    const formData = new FormData();
+    formData.append('file', file);
+
+    fetch('/upload', {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+      alert('Imagen subida exitosamente');
+      console.log(data);
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
   }
+});
